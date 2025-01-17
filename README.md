@@ -61,3 +61,10 @@ The [dataset](https://statso.io/website-performance-case-study/) we are working 
 - seaborn: For advanced plotting and visualization.
 - scipy: For statistical operations such as correlation analysis.
 - pmdarima: For building the SARIMA model.
+
+## Output:
+- Time Series Plots: Visualizations of user and session counts over time.
+- Engagement Metrics Visualizations: Plots of various engagement metrics, such as "Average Engagement Time per Session" and "Engaged Sessions per User".
+- Correlation Analysis: Scatter plots showing the correlation between different engagement metrics.
+- Channel Performance Bar Plots: Comparative visualizations of user and session data across different channels, normalized engagement metrics.
+- Traffic Forecasting Plot: A plot showing actual web traffic (sessions) and the SARIMA forecast for the next 24 hours.
