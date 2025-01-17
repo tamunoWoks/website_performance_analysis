@@ -44,12 +44,12 @@ The [dataset](https://statso.io/website-performance-case-study/) we are working 
   
 ## Key Findings:
 1. Traffic Trends:
-        - Web traffic (users and sessions) fluctuates significantly over time, with noticeable peaks and valleys. These fluctuations could indicate periods of high user interest or marketing campaigns.
+   - Web traffic (users and sessions) fluctuates significantly over time, with noticeable peaks and valleys. These fluctuations could indicate periods of high user interest or marketing campaigns.
 2. Engagement Insights:
-        - Engagement metrics, such as Average Engagement Time per Session and Engaged Sessions per User, show that certain hours of the day (e.g., evenings) have higher engagement, suggesting peak user activity.
-        - The Engagement Rate appears to correlate positively with Events per Session, indicating that more interactive sessions result in higher engagement.
+   - Engagement metrics, such as Average Engagement Time per Session and Engaged Sessions per User, show that certain hours of the day (e.g., evenings) have higher engagement, suggesting peak user activity.
+   - The Engagement Rate appears to correlate positively with Events per Session, indicating that more interactive sessions result in higher engagement.
 3. Channel Performance:
-        - Analysis of channel performance reveals that certain channels (e.g., organic search) tend to bring in more users and sessions, but channels like paid search or social media have higher engagement rates and events per session.
-        - Normalized metrics indicate which channels are the most efficient in terms of user engagement.
+   - Analysis of channel performance reveals that certain channels (e.g., organic search) tend to bring in more users and sessions, but channels like paid search or social media have higher engagement rates and events per session.
+    - Normalized metrics indicate which channels are the most efficient in terms of user engagement.
 4. Forecasting Insights:
-        - The SARIMA model effectively predicts traffic trends, with the forecast showing expected session counts for the next 24 hours. This can help plan for server load, marketing activities, or content updates during peak periods.
+   - The SARIMA model effectively predicts traffic trends, with the forecast showing expected session counts for the next 24 hours. This can help plan for server load, marketing activities, or content updates during peak periods.
