@@ -3,7 +3,7 @@ This project focuses on analyzing and forecasting web traffic, user engagement, 
 
 ## Project Overview:
 The objective of this project is to analyze web traffic data, extract key insights, and forecast future traffic patterns using statistical techniques. This analysis can assist website administrators, marketers, and analysts in understanding user behavior and improving engagement strategies.
-The analysis was carried out with Python prgramming language on Jupyter notebook. Here is the complete python script, with visualizations {webTraffic_analysis.ipynb](https://github.com/tamunoWoks/website_performance_analysis/blob/main/webTraffic_analysis.ipynb)
+The analysis was carried out with Python prgramming language on Jupyter notebook. Here is the complete python script, with visualizations [webTraffic_analysis.ipynb](https://github.com/tamunoWoks/website_performance_analysis/blob/main/webTraffic_analysis.ipynb)
 
 ## Dataset Overview:
 The [dataset](https://statso.io/website-performance-case-study/) we are working on is an open dataset sourced from [statso.io](statso.io). It contains the following columns:
