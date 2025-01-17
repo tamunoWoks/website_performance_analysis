@@ -53,3 +53,11 @@ The [dataset](https://statso.io/website-performance-case-study/) we are working 
     - Normalized metrics indicate which channels are the most efficient in terms of user engagement.
 4. Forecasting Insights:
    - The SARIMA model effectively predicts traffic trends, with the forecast showing expected session counts for the next 24 hours. This can help plan for server load, marketing activities, or content updates during peak periods.
+
+## Requirements:
+- pandas: For data manipulation and analysis.
+- matplotlib: For generating visualizations.
+- statsmodels: For time series analysis and SARIMA model.
+- seaborn: For advanced plotting and visualization.
+- scipy: For statistical operations such as correlation analysis.
+- pmdarima: For building the SARIMA model.
