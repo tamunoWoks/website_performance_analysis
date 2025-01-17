@@ -5,8 +5,7 @@ This project focuses on analyzing and forecasting web traffic, user engagement, 
 The objective of this project is to analyze web traffic data, extract key insights, and forecast future traffic patterns using statistical techniques. This analysis can assist website administrators, marketers, and analysts in understanding user behavior and improving engagement strategies.
 
 ## Dataset Overview:
-The [dataset](https://statso.io/website-performance-case-study/) we are working on is an open dataset sourced from [statso.io](statso.io).  
-It contains the following columns:
+The [dataset](https://statso.io/website-performance-case-study/) we are working on is an open dataset sourced from [statso.io](statso.io). It contains the following columns:
 - Session primary channel group: The marketing channel (e.g., Direct, Organic Social)
 - Date + hour (YYYYMMDDHH): The specific date and hour of the session
 - Users: Number of users in a given time period
