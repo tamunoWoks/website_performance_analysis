@@ -18,26 +18,26 @@ The [dataset](https://statso.io/website-performance-case-study/) we are working 
 - Event count: Total number of events during the period
 
 ## Features:
-1. Data Laoding and Cleaning:
-  - Loads and cleans web traffic data from a CSV file.
-  - The first row is set as column headers, and any rows with invalid datetime entries are removed.
-  - Converts numeric columns to their correct data types (e.g., "Users," "Sessions").
+1. Data Loading and Cleaning:
+    - Loads and cleans web traffic data from a CSV file.
+    - The first row is set as column headers, and any rows with invalid datetime entries are removed.
+    - Converts numeric columns to their correct data types (e.g., "Users," "Sessions").
 2. Time Series Analysis:
-  - Aggregates user and session data by date and hour, enabling a time-based overview of website traffic.
-  - Provides visualizations of user and session trends over time.
+    - Aggregates user and session data by date and hour, enabling a time-based overview of website traffic.
+    - Provides visualizations of user and session trends over time.
 3. Engagement Metrics Analysis:
-  - Analyzes key engagement metrics such as:
-    - Average Engagement Time per Session
-    - Engaged Sessions per User
-    - Events per Session
-    - Engagement Rate
-  - These metrics provide insights into user interactions, session quality, and overall engagement with the website.
+    - Analyzes key engagement metrics such as:
+      - Average Engagement Time per Session
+      - Engaged Sessions per User
+      - Events per Session
+      - Engagement Rate
+    - These metrics provide insights into user interactions, session quality, and overall engagement with the website.
 4. Correlation Analysis:
-  - Identifies relationships between engagement metrics, helping to uncover patterns and dependencies (e.g., "Average Engagement Time vs. Events per Session").
-  - Pearson correlation coefficients and scatter plots visualize these relationships.
+    - Identifies relationships between engagement metrics, helping to uncover patterns and dependencies (e.g., "Average Engagement Time vs. Events per Session").
+    - Pearson correlation coefficients and scatter plots visualize these relationships.
 5. Channel Performance Analysis:
-  - Aggregates traffic and engagement data by marketing channel (e.g., organic search, paid search).
-  - Compares performance across channels using normalized metrics, such as engagement rate and events per session.
+    - Aggregates traffic and engagement data by marketing channel (e.g., organic search, paid search).
+    - Compares performance across channels using normalized metrics, such as engagement rate and events per session.
 6. Traffic Forecasting (SARIMA Model):
-  - Forecasts website traffic (sessions) for the next 24 hours using the SARIMA (Seasonal AutoRegressive Integrated Moving Average) model.
-  - Provides a prediction of future traffic trends, enabling proactive website performance management.
+    - Forecasts website traffic (sessions) for the next 24 hours using the SARIMA (Seasonal AutoRegressive Integrated Moving Average) model.
+    - Provides a prediction of future traffic trends, enabling proactive website performance management.
