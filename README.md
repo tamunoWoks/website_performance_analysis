@@ -6,7 +6,7 @@ The objective of this project is to analyze web traffic data, extract key insigh
 
 ## Dataset Overview:
 The [dataset](https://statso.io/website-performance-case-study/) we are working on is an open dataset sourced from [statso.io](statso.io).  
-- It contains the following columns:
+It contains the following columns:
 - Session primary channel group: The marketing channel (e.g., Direct, Organic Social)
 - Date + hour (YYYYMMDDHH): The specific date and hour of the session
 - Users: Number of users in a given time period
